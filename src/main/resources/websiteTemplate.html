@@ -8,17 +8,13 @@
 <h1 class="documentTitle">Website Quote Template</h1>
 <div class="reportInfo">
     <p>Prepared By: <b>[[${companyName}]]</b></p>
-    <p>Prepared On: <b>[[${dateOfCreation}]]</b></p>
-    <p>Prepared For: <b>[[${customerName}]]</b></p>
+    <p>Prepared On: <b>[[${current}]]</b></p>
+    <p>Prepared For: <b>[[${customerCompanyName}]]</b></p>
 </div>
 <p class="paragraph1">This quote provides pricing information for the website
     design and development services which are detailed in the attached
-    statement of work. The quotation is valid until [[${dateValid}]] and may
-    be accepted at any time prior to that date.</p>
+    statement of work.</p>
 <hr class="line1"/>
-<!--<tr th:each="student: ${pricingRows}">-->
-<!--    <td th:text="${student.title}" />-->
-<!--</tr>-->
 <p class="paragraph1">Pricing</p>
 <table>
     <thead>
@@ -41,6 +37,14 @@
 <p class="paragraph1">This quotation is subject mutually acceptable terms and conditions
     and payment of the total price 50% upfront and 50% upon completion of development.</p>
 <hr class="line1"/>
-<div class="bottom" th:include="bottom::bottom"></div>
+<!--<div class="bottom" th:include="bottom::bottom"></div>-->
+<div class="bottom">
+    <p class="paragraph1">AGREED AND ACCEPTED:<br/></p>
+    <p class="paragraph1"><b>[[${customerCompanyName}]]</b></p>
+    <p class="paragraph1">Name:
+        ____________________________</p>
+    <p class="paragraph1">Date:
+        _____________________________</p>
+</div>
 </body>
 </html>

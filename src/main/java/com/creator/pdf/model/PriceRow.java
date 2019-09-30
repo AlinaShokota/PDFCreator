@@ -24,6 +24,9 @@ public class PriceRow {
         this.price = price;
     }
 
+    public PriceRow() {
+    }
+
     public long getId() {
         return id;
     }
