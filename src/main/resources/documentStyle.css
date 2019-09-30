@@ -1,0 +1,68 @@
+body{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.logo {
+    margin-right: -30px !important;
+    float: right;
+    width: 220px;
+    height: 220px;
+    opacity: 0.5;
+}
+
+.headerTextTitle {
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    color: #86b2ca;
+}
+
+.headerTextInfo {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 9pt;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    color: #a2a2a2;
+}
+
+.documentTitle {
+    font-size: 25pt;
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+    color: #4473c4;
+}
+
+.paragraph1 {
+    font-size: 13pt;
+    font-family: Calibri, sans-serif;
+}
+
+.line1 {
+    height: 0px;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.reportInfo {
+    font-size: 11pt;
+    font-family: Calibri, sans-serif;
+}
+
+.bottom {
+        bottom: 0;
+        right: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Calibri, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  height: 50px;
+  font-family: Calibri, sans-serif;
+}
