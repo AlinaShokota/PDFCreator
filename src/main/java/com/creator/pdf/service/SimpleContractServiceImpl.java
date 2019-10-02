@@ -30,4 +30,9 @@ public class SimpleContractServiceImpl implements DocumentService<SimpleContract
     public void createDocument(SimpleContract doc) {
         simpleContractRepo.save(doc);
     }
+
+    @Override
+    public void deleteDocument(int id) {
+        simpleContractRepo.deleteById(id);
+    }
 }

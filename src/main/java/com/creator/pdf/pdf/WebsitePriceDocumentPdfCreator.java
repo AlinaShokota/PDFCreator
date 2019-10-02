@@ -32,6 +32,7 @@ public class WebsitePriceDocumentPdfCreator extends PdfCreator<WebsitePriceDocum
         context.setVariable("companyName", document.getCompanyName());
         context.setVariable("customerCompanyName", document.getCustomerCompanyName());
         context.setVariable("pricingRows", document.getPricingRows());
+        context.setVariable("cost", document.getCost());
 
         return configureTemplateEngine().process("websiteTemplate", context);
 

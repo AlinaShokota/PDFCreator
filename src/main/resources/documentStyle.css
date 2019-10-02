@@ -16,7 +16,7 @@ body{
     font-weight: bold;
     font-size: 9pt;
     font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
-    color: #86b2ca;
+    color: #004d40;
 }
 
 .headerTextInfo {
@@ -24,14 +24,14 @@ body{
     line-height: 1.5;
     font-size: 9pt;
     font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
-    color: #a2a2a2;
+    color: #004d40;
 }
 
 .documentTitle {
     font-size: 25pt;
     font-family: Calibri, sans-serif;
     font-weight: lighter;
-    color: #4473c4;
+    color: #004d40;
 }
 
 .paragraph1 {
