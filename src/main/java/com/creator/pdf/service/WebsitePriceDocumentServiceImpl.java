@@ -43,12 +43,6 @@ public class WebsitePriceDocumentServiceImpl implements DocumentService<WebsiteP
 
     @Override
     public void deleteDocument(int id) {
-        websitePriceDocumentRepo.findById(id).ifPresentOrElse(doc -> {
-                    websitePriceDocumentRepo.deleteById(id);
-                    LOGGER.info(strings.getString("websitePriceDocumentDeletionSuccess") + doc.getId());
-                }, () -> {
-                    throw new NoSuchDucumentException(strings.getString("websitePriceDocumentDeletionFail") + id).get();
-                }
-        );
+        websitePriceDocumentRepo.deleteById(id);
     }
 }
