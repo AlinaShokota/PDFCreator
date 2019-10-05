@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.time.LocalDate;
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@CrossOrigin(origins = "https://pdf-creator-front.herokuapp.com/", maxAge = 3600)
 @RestController
 @RequestMapping("/contract")
 public class SimpleContractController {
