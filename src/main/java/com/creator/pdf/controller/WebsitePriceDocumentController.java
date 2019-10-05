@@ -15,7 +15,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-@CrossOrigin(origins = "https://pdf-creator-front.herokuapp.com/", maxAge = 3600)
+@CrossOrigin(origins = "https://pdf-creator-front.herokuapp.com", maxAge = 3600)
 @RestController
 @RequestMapping("/website")
 public class WebsitePriceDocumentController {
